@@ -791,6 +791,6 @@ if (BOT_TOKEN && BOT_TOKEN !== "YOUR_BOT_TOKEN_HERE") {
 
 // ─── Start Server ─────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(\`🚀 LetBy running at http://localhost:\${PORT}\`);
-  console.log(\`   APP_URL = \${APP_URL}\`);
+  console.log(`🚀 LetBy running at http://localhost:${PORT}`);
+  console.log(`   APP_URL = ${APP_URL}`);
 });
